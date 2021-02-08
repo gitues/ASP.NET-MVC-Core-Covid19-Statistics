@@ -19,6 +19,5 @@ If the user selects some export option: XML, JSON or CSV, a file with the curren
 - Select2 plugin - Search box in DropDownList Using  https://select2.org/
 
 # Implement email notification
-------------------------------
 Send email to developers whit the exception
 Configure appsettings.json using your information to email service
