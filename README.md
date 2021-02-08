@@ -21,3 +21,7 @@ If the user selects some export option: XML, JSON or CSV, a file with the curren
 # Implement email notification
 Send email to developers whit the exception
 Configure appsettings.json using your information to email service
+
+#Preview
+Load information default
+![alt text](https://github.com/gitues/ASP.NET-MVC-Core-Covid19-Statistics/blob/master/load1.png?raw=true)
