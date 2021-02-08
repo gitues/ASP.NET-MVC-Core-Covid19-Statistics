@@ -1,0 +1,24 @@
+﻿@model  List<ASPNETCoreMVCcovid19App.Models.Country>
+@{
+    Layout = null;
+}
+
+<table class="table table-borderless text-center">
+    <thead>
+        <tr>
+            <th scope="col">PROVINCE</th>
+            <th scope="col">CASES</th>
+            <th scope="col">DEATHS</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.region.province</td>
+                <td>@item.confirmed</td>
+                <td>@item.deaths</td>
+            </tr>
+        }
+    </tbody>
+</table>

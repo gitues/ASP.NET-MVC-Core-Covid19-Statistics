@@ -1,0 +1,82 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<link href="~/lib/Select2/css/select2.css" rel="stylesheet" />
+<div class="page-header">
+    <h5>TOP 10 COVID CASES</h5>
+</div>
+<hr />
+
+
+    @using (Html.BeginForm(null, null, FormMethod.Post,
+       new { enctype = "multipart/form-data", id = "form-query", @class = "form-horizontal col-md-12" }))
+    {
+        @Html.AntiForgeryToken()
+        <div class="col-md-12 btn-toolbar" role="toolbar">
+            <div class="col-md-3">
+                <div class="btn-group" role="group">
+                    @Html.DropDownList("isoId", new SelectList(ViewBag.regionsList, "iso", "name"), "Regions", htmlAttributes: new { @class = "form-control js-example-basic-single" })
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="btn-group text-left" role="group">
+                    <button type="button" class="btn btn-light btn-sm active" id="load-top-btn">Report</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="btn-group d-flex">
+                    <button type="button" class="btn btn-light btn-sm active" onclick="doExport({type:'xml'});">XML</button>
+                    <button type="button" class="btn btn-light btn-sm" onclick="doExport({type:'json'});">JSON</button>
+                    <button type="button" class="btn btn-light btn-sm" onclick="doExport({type:'csv'});">CSV</button>
+                </div>
+            </div>
+        </div>
+
+    }
+
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <div class="div-result"></div>
+    </div>
+</div>
+
+@section scripts {
+    <script src="~/lib/blockui/jquery.blockUI.js"></script>
+    <script src="~/lib/Select2/js/select2.js"></script>
+    <script src="~/js/Custom.js"></script>
+    <script src="~/lib/TableExport/tableExport.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+        setTimeout(function () { $("#load-top-btn").click(); }, 1000);
+
+         //Load province information top by region
+            $("#load-top-btn").on("click", function () {
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("ReportAsync", "Home")',
+                    dataType: 'html',
+                    data: { iso: $("#isoId").val() },
+                    headers: {
+                        RequestVerificationToken:
+                            $('input:hidden[name="__RequestVerificationToken"]').val()
+                    },
+                    beforeSend: PleaseWait(),
+                    success: function (result) {
+                        $(".div-result").html(result);
+                        CloseWait();
+                    },
+                    error: function (xhr, textStatus, errorThrown) {
+                        alert(errorThrown);
+                        CloseWait();
+                    }
+                });
+            });
+            $('.js-example-basic-single').select2();
+        });
+
+    </script>
+}
