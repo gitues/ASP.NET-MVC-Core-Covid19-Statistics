@@ -1,4 +1,4 @@
-# ASPNET-MVC-COVID19-TopCases
+# ASPNETCoreMVCcovid19App
 
 # TOP 10 COVID-19 CASES
 -----------------------------
@@ -17,3 +17,8 @@ If the user selects some export option: XML, JSON or CSV, a file with the curren
 - tableExport.js - Download options from https://github.com/kayalshri/ https://github.com/hhurz/
 - jQuery blockUI plugin - Wait user overlay messaje http://malsup.com/jquery/block/
 - Select2 plugin - Search box in DropDownList Using  https://select2.org/
+
+# Implement email notification
+------------------------------
+Send email to developers whit the exception
+Configure appsettings.json using your information to email service
