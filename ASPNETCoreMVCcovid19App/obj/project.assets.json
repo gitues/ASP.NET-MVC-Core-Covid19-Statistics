@@ -702,11 +702,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Desarrollo\\ASPNETCoreMVCcovid19App\\ASPNETCoreMVCcovid19App\\ASPNETCoreMVCcovid19App.csproj",
+      "projectUniqueName": "C:\\Desarrollo\\DeveloperNETtest\\ASP.NET-MVC-Core-Covid19-Statistics\\ASPNETCoreMVCcovid19App\\ASPNETCoreMVCcovid19App.csproj",
       "projectName": "ASPNETCoreMVCcovid19App",
-      "projectPath": "C:\\Desarrollo\\ASPNETCoreMVCcovid19App\\ASPNETCoreMVCcovid19App\\ASPNETCoreMVCcovid19App.csproj",
+      "projectPath": "C:\\Desarrollo\\DeveloperNETtest\\ASP.NET-MVC-Core-Covid19-Statistics\\ASPNETCoreMVCcovid19App\\ASPNETCoreMVCcovid19App.csproj",
       "packagesPath": "C:\\Users\\HIPO01\\.nuget\\packages\\",
-      "outputPath": "C:\\Desarrollo\\ASPNETCoreMVCcovid19App\\ASPNETCoreMVCcovid19App\\obj\\",
+      "outputPath": "C:\\Desarrollo\\DeveloperNETtest\\ASP.NET-MVC-Core-Covid19-Statistics\\ASPNETCoreMVCcovid19App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HIPO01\\AppData\\Roaming\\NuGet\\NuGet.Config",

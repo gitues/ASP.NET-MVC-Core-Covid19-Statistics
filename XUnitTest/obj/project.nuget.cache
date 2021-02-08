@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pjeVyyWeS7FX4H3B6sMXNOAemGHN+gBxb8qwYwCjSHe1zCkIH36nS9YEdVQTynNvu9f+ImK4wO14eDMt5HrFZQ==",
+  "dgSpecHash": "dZiYCUUn7IpJtbaX/QYmbWjCubWiEnXUVyAYmj78VRhWblB5lNKPpmW5/RvWHYkNfJKOq8IouwcB0w3cx48Hhw==",
   "success": true,
-  "projectFilePath": "C:\\Desarrollo\\ASPNETCoreMVCcovid19App\\XUnitTest\\XUnitTest.csproj",
+  "projectFilePath": "C:\\Desarrollo\\DeveloperNETtest\\ASP.NET-MVC-Core-Covid19-Statistics\\XUnitTest\\XUnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HIPO01\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",
     "C:\\Users\\HIPO01\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\3.1.10\\microsoft.aspnetcore.mvc.razor.extensions.3.1.10.nupkg.sha512",

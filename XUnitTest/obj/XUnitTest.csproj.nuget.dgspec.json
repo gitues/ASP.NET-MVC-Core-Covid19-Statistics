@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Desarrollo\\ASPNETCoreMVCcovid19App\\XUnitTest\\XUnitTest.csproj": {}
+    "C:\\Desarrollo\\DeveloperNETtest\\ASP.NET-MVC-Core-Covid19-Statistics\\XUnitTest\\XUnitTest.csproj": {}
   },
   "projects": {
-    "C:\\Desarrollo\\ASPNETCoreMVCcovid19App\\ASPNETCoreMVCcovid19App\\ASPNETCoreMVCcovid19App.csproj": {
+    "C:\\Desarrollo\\DeveloperNETtest\\ASP.NET-MVC-Core-Covid19-Statistics\\ASPNETCoreMVCcovid19App\\ASPNETCoreMVCcovid19App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Desarrollo\\ASPNETCoreMVCcovid19App\\ASPNETCoreMVCcovid19App\\ASPNETCoreMVCcovid19App.csproj",
+        "projectUniqueName": "C:\\Desarrollo\\DeveloperNETtest\\ASP.NET-MVC-Core-Covid19-Statistics\\ASPNETCoreMVCcovid19App\\ASPNETCoreMVCcovid19App.csproj",
         "projectName": "ASPNETCoreMVCcovid19App",
-        "projectPath": "C:\\Desarrollo\\ASPNETCoreMVCcovid19App\\ASPNETCoreMVCcovid19App\\ASPNETCoreMVCcovid19App.csproj",
+        "projectPath": "C:\\Desarrollo\\DeveloperNETtest\\ASP.NET-MVC-Core-Covid19-Statistics\\ASPNETCoreMVCcovid19App\\ASPNETCoreMVCcovid19App.csproj",
         "packagesPath": "C:\\Users\\HIPO01\\.nuget\\packages\\",
-        "outputPath": "C:\\Desarrollo\\ASPNETCoreMVCcovid19App\\ASPNETCoreMVCcovid19App\\obj\\",
+        "outputPath": "C:\\Desarrollo\\DeveloperNETtest\\ASP.NET-MVC-Core-Covid19-Statistics\\ASPNETCoreMVCcovid19App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HIPO01\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -71,14 +71,14 @@
         }
       }
     },
-    "C:\\Desarrollo\\ASPNETCoreMVCcovid19App\\XUnitTest\\XUnitTest.csproj": {
+    "C:\\Desarrollo\\DeveloperNETtest\\ASP.NET-MVC-Core-Covid19-Statistics\\XUnitTest\\XUnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Desarrollo\\ASPNETCoreMVCcovid19App\\XUnitTest\\XUnitTest.csproj",
+        "projectUniqueName": "C:\\Desarrollo\\DeveloperNETtest\\ASP.NET-MVC-Core-Covid19-Statistics\\XUnitTest\\XUnitTest.csproj",
         "projectName": "XUnitTest",
-        "projectPath": "C:\\Desarrollo\\ASPNETCoreMVCcovid19App\\XUnitTest\\XUnitTest.csproj",
+        "projectPath": "C:\\Desarrollo\\DeveloperNETtest\\ASP.NET-MVC-Core-Covid19-Statistics\\XUnitTest\\XUnitTest.csproj",
         "packagesPath": "C:\\Users\\HIPO01\\.nuget\\packages\\",
-        "outputPath": "C:\\Desarrollo\\ASPNETCoreMVCcovid19App\\XUnitTest\\obj\\",
+        "outputPath": "C:\\Desarrollo\\DeveloperNETtest\\ASP.NET-MVC-Core-Covid19-Statistics\\XUnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HIPO01\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -95,8 +95,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Desarrollo\\ASPNETCoreMVCcovid19App\\ASPNETCoreMVCcovid19App\\ASPNETCoreMVCcovid19App.csproj": {
-                "projectPath": "C:\\Desarrollo\\ASPNETCoreMVCcovid19App\\ASPNETCoreMVCcovid19App\\ASPNETCoreMVCcovid19App.csproj"
+              "C:\\Desarrollo\\DeveloperNETtest\\ASP.NET-MVC-Core-Covid19-Statistics\\ASPNETCoreMVCcovid19App\\ASPNETCoreMVCcovid19App.csproj": {
+                "projectPath": "C:\\Desarrollo\\DeveloperNETtest\\ASP.NET-MVC-Core-Covid19-Statistics\\ASPNETCoreMVCcovid19App\\ASPNETCoreMVCcovid19App.csproj"
               }
             }
           }

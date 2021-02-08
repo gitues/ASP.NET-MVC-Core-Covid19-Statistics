@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "su5zxWrC+DG61/E/bAR6CIVPCA5uTht2uCd4tkdAvLUpL9f6yjkgnk/G6iDspq9tfizu43GlYVpcvcPQ6UVaKw==",
+  "dgSpecHash": "1M5Hxh9NGthwVBHmmp4WmDKZIfnkabYlyUjl4zDuOJTPxEqyo0qkxvjz+KAIfnS2wqD5SutElqblg6F5Nz49nQ==",
   "success": true,
-  "projectFilePath": "C:\\Desarrollo\\ASPNETCoreMVCcovid19App\\ASPNETCoreMVCcovid19App\\ASPNETCoreMVCcovid19App.csproj",
+  "projectFilePath": "C:\\Desarrollo\\DeveloperNETtest\\ASP.NET-MVC-Core-Covid19-Statistics\\ASPNETCoreMVCcovid19App\\ASPNETCoreMVCcovid19App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HIPO01\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\3.1.10\\microsoft.aspnetcore.mvc.razor.extensions.3.1.10.nupkg.sha512",
     "C:\\Users\\HIPO01\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\3.1.10\\microsoft.aspnetcore.mvc.razor.runtimecompilation.3.1.10.nupkg.sha512",
