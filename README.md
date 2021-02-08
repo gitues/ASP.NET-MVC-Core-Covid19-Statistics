@@ -26,5 +26,5 @@ Configure appsettings.json using your information to email service
 Load information default
 ![alt text](https://raw.githubusercontent.com/gitues/ASP.NET-MVC-Core-Covid19-Statistics/master/ASPNETCoreMVCcovid19App/wwwroot/img/load1.png)
 
-Filter information using serch box
+Filter information in search box
 ![alt text](https://raw.githubusercontent.com/gitues/ASP.NET-MVC-Core-Covid19-Statistics/master/ASPNETCoreMVCcovid19App/wwwroot/img/load2_filter.png)
